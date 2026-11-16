@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "obtain-speedrun",
+	"version": "1.0.0",
+	"name": "Obtain Speedrun",
+	"description": "Picks a random obtainable item when you join a singleplayer world, shows a timer until you have it, and keeps a run history.",
+	"authors": [],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"dev.speedrun.obtain.ObtainSpeedrunClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
